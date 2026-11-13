@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<rect width="800" height="600" fill="#eee5d9"/>
+<circle cx="640" cy="120" r="95" fill="#ffffff" opacity=".42"/>
+<rect x="110" y="160" width="580" height="300" rx="24" fill="#fffaf1" opacity=".9"/>
+<path d="M180 390 Q300 180 420 390 T660 390" fill="none" stroke="#c49a72" stroke-width="22" stroke-linecap="round"/>
+<circle cx="280" cy="270" r="35" fill="#c49a72" opacity=".75"/>
+<circle cx="520" cy="270" r="35" fill="#c49a72" opacity=".45"/>
+<text x="400" y="525" text-anchor="middle" font-family="sans-serif" font-size="25" letter-spacing="4" fill="#687466">DAILY ACTIVITY</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e5e8d9"/><stop offset="1" stop-color="#f5e8d7"/></linearGradient>
+  <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9b995"/><stop offset="1" stop-color="#b98e69"/></linearGradient>
+</defs>
+<rect width="900" height="760" fill="url(#bg)"/>
+<circle cx="710" cy="150" r="90" fill="#f8f2df" opacity=".8"/>
+<rect x="90" y="95" width="390" height="340" rx="12" fill="#f8f7f0"/>
+<rect x="120" y="125" width="330" height="280" fill="#c8d7cf"/>
+<path d="M285 125v280M120 265h330" stroke="#f8f7f0" stroke-width="13"/>
+<path d="M120 405h330" stroke="#b5c3b8" stroke-width="5"/>
+<rect x="60" y="500" width="790" height="34" rx="8" fill="url(#wood)"/>
+<path d="M125 534v150M780 534v150" stroke="#9c795d" stroke-width="20"/>
+<rect x="220" y="420" width="180" height="82" rx="10" fill="#d6b28f"/>
+<rect x="245" y="390" width="130" height="36" rx="7" fill="#f3eee2"/>
+<path d="M260 405c25-25 55 25 80 0" fill="none" stroke="#8c9b7d" stroke-width="8" stroke-linecap="round"/>
+<rect x="500" y="375" width="220" height="125" rx="12" fill="#fffaf0"/>
+<path d="M535 440c20-55 60-55 80 0s60 55 80 0" fill="none" stroke="#b77f68" stroke-width="12" stroke-linecap="round"/>
+<circle cx="565" cy="400" r="13" fill="#8a9b83"/><circle cx="655" cy="400" r="13" fill="#d5ad72"/>
+<path d="M490 360l50-70 60 45 55-65 70 90" fill="#8b9a7f" opacity=".8"/>
+<text x="450" y="725" text-anchor="middle" font-family="sans-serif" font-size="22" letter-spacing="5" fill="#71836e">IMAGE PLACEHOLDER</text>
+</svg>
