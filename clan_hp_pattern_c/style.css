@@ -12,7 +12,7 @@ nav a:hover{color:#e78e79}
 .logo b{font:900 28px "Kosugi Maru",sans-serif;letter-spacing:.03em}
 .nav-btn,.pill-btn{background:#f5d45c;border-radius:50px;padding:12px 23px;font-size:12px;font-weight:900;display:inline-flex;gap:15px;align-items:center;box-shadow:4px 4px 0 #253e56}
 .menu{display:none}
-.hero{min-height:620px;padding:70px 8%;display:grid;grid-template-columns:.9fr 1.1fr;gap:4%;align-items:center;position:relative;overflow:hidden;background:#dceef2}
+.hero{min-height:620px;padding:78px 8% 82px;display:grid;grid-template-columns:.88fr 1.12fr;gap:5%;align-items:center;position:relative;overflow:hidden;background:#dceef2}
 .hero-text{position:relative;z-index:2}
 .eyebrow,.section-tag{font-size:11px;font-weight:900;letter-spacing:.16em;color:#e18b76}
 .hero h1{font:900 clamp(42px,5vw,70px)/1.35 "Kosugi Maru",sans-serif;margin:25px 0;color:#253e56;letter-spacing:-.04em}
@@ -20,23 +20,20 @@ nav a:hover{color:#e78e79}
 .lead{font:700 23px/1.6 "Kosugi Maru",sans-serif}
 .intro-copy{font-size:13px;margin:22px 0}
 .pill-btn{margin-top:15px}
-.hero-image{height:440px;position:relative}
+.hero-image{height:440px;position:relative;margin:24px 18px 10px 0}
 .hero-image img{width:100%;height:100%;object-fit:cover;object-position:center;border-radius:48% 52% 38% 62%/48% 40% 60% 52%;border:8px solid #fbfaf5}
-.sticker{position:absolute;right:2%;top:10px;background:#f5d45c;border-radius:50%;width:105px;height:105px;display:grid;place-content:center;text-align:center;font:900 15px "Kosugi Maru";transform:rotate(10deg);z-index:3}
-.burst{position:absolute;bottom:25px;left:-30px;background:#e98f7a;color:#fff;border-radius:50%;width:100px;height:100px;display:grid;place-content:center;text-align:center;font:900 15px "Kosugi Maru";transform:rotate(-12deg)}
-.scribble{position:absolute;bottom:15px;left:48%;font:900 25px "Kosugi Maru";color:#e68d78;transform:rotate(-9deg)}
+.sticker{position:absolute;right:7.5%;top:28px;background:#f5d45c;border:5px solid #fbfaf5;border-radius:50%;width:112px;height:112px;display:grid;place-content:center;text-align:center;font:900 14px/1.5 "Kosugi Maru";transform:rotate(8deg);z-index:4;box-shadow:3px 5px 0 rgba(37,62,86,.12)}
+.burst{position:absolute;bottom:-22px;right:-12px;left:auto;background:#e98f7a;color:#fff;border:5px solid #fbfaf5;border-radius:50%;width:92px;height:92px;display:grid;place-content:center;text-align:center;font:900 14px/1.25 "Kosugi Maru";transform:rotate(9deg);z-index:3;box-shadow:3px 5px 0 rgba(37,62,86,.12)}
+.scribble{display:none}
 .section{padding:100px 9%}
 .section h2{font:900 clamp(34px,4.5vw,55px)/1.45 "Kosugi Maru",sans-serif;margin:22px 0}
 .section h2 em{font-style:normal;color:#e68d78}
 .about{background:#fff}
 .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:8%;align-items:center}
 .about-grid p{font-size:13px}
-.about-photo{position:relative}
-.facility-placeholder{height:300px;border-radius:20px 70px 20px 70px;background:repeating-linear-gradient(135deg,#dceef2 0 18px,#eaf4f5 18px 36px);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#253e56;text-align:center;gap:8px}
-.facility-placeholder span{font:900 28px "Kosugi Maru";color:#e18b76}
-.facility-placeholder b{font-size:14px}
-.facility-placeholder small{font-size:10px}
-.about-photo>span{position:absolute;bottom:-18px;right:15px;background:#f5d45c;padding:10px 18px;border-radius:30px;font:900 12px "Kosugi Maru";transform:rotate(3deg)}
+.about-photo{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:stretch}
+.sample-photo{margin:0;position:relative;min-width:0}.sample-photo img{display:block;width:100%;height:280px;object-fit:cover;border-radius:20px 55px 20px 55px;border:5px solid #fff;box-shadow:0 8px 20px rgba(37,62,86,.08)}.sample-photo:nth-child(2) img{border-radius:55px 20px 55px 20px}.sample-photo figcaption{font-size:12px;font-weight:900;padding:9px 5px 0}.sample-photo figcaption small{display:block;font-size:9px;font-weight:400;color:#8a8a80}
+
 .mini-points{display:flex;flex-wrap:wrap;gap:12px;margin-top:55px}
 .mini-points span,.tags span{border:1.5px solid #8bb8c9;border-radius:50px;padding:8px 18px;font-size:12px;font-weight:700}
 .mini-points span:nth-child(2n){background:#dceef2}
@@ -56,9 +53,9 @@ nav a:hover{color:#e78e79}
 .tags span{font-size:10px;padding:4px 12px}
 .work-foot{text-align:center;font-size:13px;font-weight:700;margin-top:40px}
 .support{background:#dceef2}
-.support-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.support-grid article{background:#fff;border-radius:18px;padding:25px;min-height:170px;position:relative}
-.support-grid article:nth-child(2n){transform:translateY(20px);background:#fff5d7}
+.support-grid{display:flex;flex-wrap:wrap;justify-content:center;align-items:stretch;gap:18px}
+.support-grid article{background:#fff;border-radius:18px;padding:25px;min-height:180px;flex:0 1 calc((100% - 36px)/3);position:relative;display:flex;flex-direction:column;align-items:flex-start}
+.support-grid article:nth-child(2n){background:#fff5d7}
 .support-grid b{font:900 22px Georgia;color:#e18b76}
 .support-grid h3{font:900 20px "Kosugi Maru"}
 .support-grid p{font-size:12px}
@@ -105,17 +102,32 @@ footer{background:#172c40;color:#f8f7f0;padding:55px 8% 18px}
 .footer-grid>div>b{font-size:13px}
 .footer-grid a:not(.logo){text-decoration:underline;font-size:11px}
 .copyright{text-align:center;border-top:1px solid #3b5061;margin-top:40px;padding-top:15px;font:10px Georgia;letter-spacing:.12em;color:#b8c5cb}
-@media(max-width:900px){nav{gap:12px;font-size:10px}.section{padding:80px 7%}.hero{padding-left:6%;padding-right:6%}}
+@media(max-width:900px){
+nav{gap:12px;font-size:10px}.section{padding:80px 7%}
+.hero{padding-left:6%;padding-right:6%;grid-template-columns:.9fr 1.1fr;gap:3%}
+.hero-image{height:380px;margin-right:8px}
+.sticker{right:5%;top:20px;width:96px;height:96px;font-size:12px}
+.burst{width:82px;height:82px;right:-8px;bottom:-16px;font-size:12px}
+.sample-photo img{height:230px}
+}
 @media(max-width:700px){
 header{height:70px;padding:0 6%}.menu{display:block;border:0;background:none;color:#253e56;font-weight:900}
 nav{display:none;position:absolute;top:70px;left:0;right:0;background:#fbfaf5;padding:20px 7%;flex-direction:column;align-items:stretch;border-bottom:2px solid #253e56}
 nav.open{display:flex}nav a{padding:8px}
-.hero{display:flex;flex-direction:column;padding:50px 7% 75px;gap:35px}.hero h1{font-size:43px}.hero-image{height:290px;width:100%}
-.sticker{right:0;top:0;width:85px;height:85px;font-size:12px}.burst{width:75px;height:75px;font-size:12px;left:-10px}.scribble{display:none}
+.hero{display:flex;flex-direction:column;align-items:stretch;padding:50px 7% 75px;gap:24px}.hero h1{font-size:43px}.hero-image{height:290px;width:100%;margin:0 0 14px}
+.sticker{right:8%;top:auto;bottom:330px;width:82px;height:82px;font-size:11px;border-width:3px}.burst{width:72px;height:72px;font-size:11px;right:-5px;bottom:-12px}
 .section{padding:75px 7%}.about-grid,.guide-grid,.access-grid{grid-template-columns:1fr;gap:25px}
-.facility-placeholder{height:230px}.section-title{display:block}.section-title p{margin-top:15px}
-.work-grid{grid-template-columns:1fr}.work-img{height:220px}.support-grid{grid-template-columns:1fr 1fr}.support-grid article:nth-child(2n){transform:none}
+.section-title{display:block}.section-title p{margin-top:15px}
+.about-photo{grid-template-columns:1fr 1fr}.sample-photo img{height:180px}
+.work-grid{grid-template-columns:1fr}.work-img{height:220px}.support-grid article{flex-basis:calc((100% - 18px)/2)}
 .schedule{grid-template-columns:1fr}.guide dl div{grid-template-columns:90px 1fr}
 .contact-buttons{flex-direction:column;align-items:center}.contact-buttons a{width:min(100%,310px)}
 .footer-grid{grid-template-columns:1fr;gap:22px}.map-card{height:230px}
+}
+
+@media(max-width:480px){
+  .about-photo{grid-template-columns:1fr}
+  .sample-photo img{height:210px}
+  .support-grid article{flex-basis:100%;min-height:unset}
+  .sticker{right:7%;bottom:330px}
 }
