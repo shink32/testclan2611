@@ -6,7 +6,7 @@ header{height:82px;padding:0 5.5%;display:flex;align-items:center;justify-conten
 nav{display:flex;align-items:center;gap:26px;font-size:12px;font-weight:700}
 nav a:hover{color:#e78e79}
 .logo{display:flex;align-items:center;gap:10px}
-.logo-mark{width:44px;height:44px;border-radius:50%;background:#f7d45c;color:#253e56;display:grid;place-items:center;font-size:27px}
+.logo-mark-img{width:48px;height:48px;flex:0 0 48px;display:block;object-fit:contain;background:transparent}
 .logo small,.logo b{display:block;line-height:1.2}
 .logo small{font-size:9px}
 .logo b{font:900 28px "Kosugi Maru",sans-serif;letter-spacing:.03em}
@@ -97,7 +97,6 @@ nav a:hover{color:#e78e79}
 .contact-buttons a:nth-child(2){background:#8bb8c9}
 footer{background:#172c40;color:#f8f7f0;padding:55px 8% 18px}
 .footer-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:35px}
-.foot-logo .logo-mark{background:#f5d45c}
 .footer-grid p{font-size:11px;line-height:2;color:#d5e0e4}
 .footer-grid>div>b{font-size:13px}
 .footer-grid a:not(.logo){text-decoration:underline;font-size:11px}
